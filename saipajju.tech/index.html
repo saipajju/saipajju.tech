@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>saipajju</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/profile.png" type="image/png">
+    
+    <!-- Open graph -->
+    <meta name="description" content="Hi, I am saipajju and this is my portfolio"/>
+    <meta content="#9affe1" name="theme-color">  
+    <!-- Particles js and Typed js -->
+    <script src="./particles.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+    <!-- Icons -->
+    <!-- <link rel="icon" href="./favicon.ico"> -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">saipajju</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> 
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#resume" class="navbar__links" id="resume-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#stack" class="navbar__links" id="stack-page">Tech Stack</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing -->
+    <div class="container">
+        <div id="particles-js"></div>
+        <section class="home__section" id="home">  
+            
+            <h1 id="main-name">
+                Hey there 👋 I am saipajju
+            </h1>
+            <p>
+                I'm a <span class='typing'></span>
+            </p>
+
+            <div class="social__icons">
+                <a href=https://github.com/saipajju class="icons" target="_blank"> <i class="fab fa-github fa-3x"></i></a>
+                <a href=mailto:contact@saipajju.tech class="icons" target="_blank"><i class="fa fa-envelope fa-3x" ></i></a>
+                <a href=https://www.twitter.com/saipajju class="icons" target="_blank"><i class="fab fa-twitter fa-3x" ></i></a>
+            </div>
+        </section>
+        
+    </div>
+
+    <!-- About -->
+    <section class="about__section" id="about"> 
+        <div class="about__container">
+            <div class="about__card">
+                <h1>
+                    <i class="fas fa-paint-brush"></i>
+                    About Me
+                </h1>
+                <br>
+                <p> Hi, I'm saipajju! <p> <br>
+                <p>
+                    I am a 14 year old software developer. <br><br>
+                </p>
+                <p> I also play piano, make robots and develop advanced discord bots.<br>
+                    <br>
+                </p>
+                <p>
+                    In my free time I enjoy playing chess, reading books and playing video games. I own  <a href="https://discord.gg/hpnWfE4HVV" target="_blank">Nether's Edge</a> a small minecraft server.
+
+                </p>
+                <br>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="resume__section" id="resume">
+        <div class="toggle__bar">
+            <button class="toggle__btn  active__btn" id="prj__btn"><h1>Projects</h1></button>
+
+            <button class="toggle__btn" id="exp__btn"><h1>Experience</h1></button>
+        </div>
+
+        <div class="resume__container">
+            <div class="timeline" id="projects">
+                <ul>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2023 - 2024</h3>
+                            <h1><a href='https://github.com/saipajju' target="_blank">Nexus AI</a></h1>
+                            <p>An upgraded version of the old bot. It has no moderation features or such. It instead learns from the users message and interacts. Models like GPT weren't used for this project.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2021-2022</h3>
+                            <h1><a href='https://github.com/saipajju' target="_blank">Nexus Bot</a></h1>
+                            <p>It was a discord bot. It had all moderation features and was a economy bot. It was popular back in the day.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2021</h3>
+                            <h1><a href='https://reconfer.pythonanywhere.com' target="_blank">Reconfer</a></h1>
+                            <p>A blogging website. My first ever website!</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="timeline noshow" id="experience">
+                <ul>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2023 - Present</h3>
+                            <h1>AI Model Development</h1>
+                            <p>Python</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2021 - present</h3>
+                            <h1>Web Developement</h1>
+                            <p>Flask</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline__content">
+                            <h3 class="date">2020 - Present</h3>
+                            <h1>Discord Bot Developement </h1>
+                            <p>discord.py, pycord, discord.js</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+  </section>
+
+    <!-- Stack -->
+    <section class="tech__section" id="stack">
+       <div class="tech__container">
+           <h1>Languages</h1>
+            <ul class="tech__icons">
+
+                <li class="icon__item"><i class="devicon-python-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-html5-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-css3-plain-wordmark"></i></li>
+                <li class="icon__item"><i class="devicon-javascript-plain"></i></li>
+                <li class="icon__item"><i class="devicon-cplusplus-plain"></i></li>
+
+            </ul>
+       </div>
+    <div class="tech__container">
+        <h1>Frameworks, Tools and Technologies</h1>
+        <ul class="tech__icons">
+            <li class="icon__item"><i class="devicon-vscode-plain"></i></li>
+            <li class="icon__item"><i class="devicon-git-plain-wordmark"></i></li>
+            <li class="icon__item"><i class="devicon-flask-original"></i></li>   
+             </ul>
+    </div>
+    </section>
+
+
+       <script>
+            // particle.js config
+            /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+            particlesJS.load('particles-js', 'particlesjs-config.json', () => {
+                console.log('Particles.js config loaded!');
+            });
+       </script>
+    <script src="./main.js"></script>
+</body>
+</html>
